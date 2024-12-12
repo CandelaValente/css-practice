@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "nombre": "Remera básica",
+      "precio": 15.99,
+      "categoria": "ropa",
+      "imagen": "img/1.jpeg"
+    },
+    {
+      "id": 2,
+      "nombre": "Remera básica",
+      "precio": 15.99,
+      "categoria": "ropa",
+      "imagen": "./img/2.jpeg"
+    },
+    {
+      "id": 3,
+      "nombre": "Remera básica",
+      "precio": 15.99,
+      "categoria": "ropa",
+      "imagen": "img/3.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Remera básica",
+      "precio": 15.99,
+      "categoria": "ropa",
+      "imagen": "img/4.jpeg"
+    }
+]

@@ -157,3 +157,40 @@ footer {
         }
     }
 }
+
+.dark-mode {
+    background-color: #A47D72;
+}
+.dark-mode button, .dark-mode .btn{
+    background-color: #573b3a;
+}
+.dark-mode nav {
+    background-color: #3e2a29;
+}
+
+.dark-mode section {
+    /* background-color: #a8a39f; */
+    /* background-color: #a8a39f; */
+    background-color: #6E6A67;
+    color: #FFF7E2;
+    p{
+        color: white;
+    }
+    span{
+        /* color: #573b3a; */
+        color: #ffcfcd;
+        /* background-color: rgba(255, 255, 255, 0.1); */
+        /* box-shadow: 0px 0px 20px  rgba(255, 255, 255, 0.3); */
+        /* border-radius: 20px; */
+    }
+}
+
+
+.dark-mode article {
+    background-color: #57423c;
+}
+.dark-mode .card {
+    background-color: #6E6A67;
+    border: #2b2a2a 1px solid;
+    box-shadow: 0px 0px 20px  rgba(255, 255, 255, 0.3);
+}

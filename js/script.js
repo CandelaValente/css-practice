@@ -18,6 +18,9 @@ document.getElementById("header").innerHTML = `
           <li class="nav-item">
             <a class="nav-link" href="#">My orders</a>
           </li>
+          <li class="nav-item">
+            <button class="nav-link" id="mode-toggle" type="button" onclick="darkMode()">Dark Mode</button>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Account
@@ -41,55 +44,6 @@ document.getElementById("header").innerHTML = `
 `;
 
 
-
-
-
-
-
-// `
-//   <header>
-//         <nav class="navbar navbar-expand-lg">
-//             <div class="container-fluid">
-//                 <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
-//                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-//                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-//                     aria-expanded="false" aria-label="Toggle navigation">
-//                     <span class="navbar-toggler-icon"></span>
-//                 </button>
-//                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-//                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-//                         <li class="nav-item">
-//                             <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-//                         </li>
-//                         <li class="nav-item">
-//                             <a class="nav-link" href="#">Mujer</a>
-//                         </li>
-//                         <li>
-//                         <form class="d-flex" role="search">
-//                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-//                         <button class="btn btn-outline-success" type="submit">Search</button>
-//                         </form>
-//                         </li>
-//                         <li class="nav-item dropdown">
-//                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-//                         aria-expanded="false">
-//                         Account
-//                         </a>
-//                         <ul class="dropdown-menu">
-
-//                         <li><a class="dropdown-item" href="./login.html">Inicia sesión</a></li>
-//                         <li><a class="dropdown-item" href="./registro.html">Registrate</a></li>
-
-//                         </ul>
-//                         </li>
-//                         </ul>
-//                         </div>
-//                         </div>
-//                         </nav>
-//     </header>
-// `;
-
-// Insertar Footer
 document.getElementById("footer").innerHTML = `
   <footer>
     <p>© 2024 Mi Sitio Web - Todos los derechos reservados.</p>
@@ -122,3 +76,11 @@ document.getElementById("newProduct").addEventListener("click", () => {
 
 
 });
+function darkMode(){
+  document.body.classList.toggle("dark-mode");
+
+}
+
+//   const toggleButton = document.getElementById("mode-toggle");
+//   toggleButton.textContent = 
+//     document.body.classList.contains("dark-mode") ? "Modo Claro" : "Modo Oscuro";
