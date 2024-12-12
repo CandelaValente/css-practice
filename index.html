@@ -21,12 +21,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        
+
 </head>
 
 <body>
 
-   <header id="header"></header>
+    <header id="header"></header>
+
     <main>
         <section>
             <div>
@@ -45,9 +46,9 @@
         <section>
             <h4>Soft Skin Products</h4>
 
-            <div class="container">
+            <div class="container" id="productos">
 
-                <div class="card">
+                <!-- <div class="card">
                     <img src="./img/1.jpeg" alt="">
                     <h6>Lorem ipsum</h6>
                     <p>$$$$$$$</p>
@@ -69,7 +70,7 @@
                     <img src="./img/4.jpeg" alt="">
                     <h6>Lorem ipsum</h6>
                     <p>$$$$$$$</p>
-                </div>
+                </div> -->
 
             </div>
         </section>
@@ -99,19 +100,28 @@
     </main>
     <div class="form">
 
-        <form action="">
+        <form action="" id="formContact">
+            <p id="error"></p>
             <label for=""> nombre
             </label>
-            <input type="text" placeholder="nombre...">
+            <input type="text" placeholder="nombre..." id="nombre">
+            <p id="errorNombre" class="errorMensaje"></p>
             <label for="">apellido
             </label>
-            <input type="text" placeholder="apellido...">
+            <input type="text" placeholder="apellido..." id="apellido">
+            <p id="errorApellido" class="errorMensaje"></p>
+
             <label for="">email
             </label>
-            <input type="text" placeholder="email...">
+            <input type="text" placeholder="email..." id="email">
+            <p id="errorEmail" class="errorMensaje"></p>
+
             <label for="">consulta
             </label>
-            <textarea name="" id="" placeholder="escribe tu consulta..."></textarea>
+            <textarea name="" id="mensaje" placeholder="escribe tu consulta..."></textarea>
+            <p id="errorMensaje" class="errorMensaje"></p>
+
+            <button type="submit" id="botonEnviar" disabled>enviar</button>
         </form>
     </div>
     <footer>
@@ -120,6 +130,9 @@
             tempore!</P>
     </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/darkmode.js"></script>
+    <script src="./js/formContact.js"></script>
+    <script src="./js/json.js"></script>
 </body>
 
 </html>

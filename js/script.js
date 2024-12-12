@@ -9,6 +9,7 @@ document.getElementById("header").innerHTML = `
                 <li><a href="./login.html">Account</a></li>
                 <li> <a href="">Orders</a></li>
                 <li> <a href="./shop.html">Shop</a></li>
+                 <button id="mode-toggle" class="mode-toggle" type="button">Modo Oscuro</button>
                 <li><label for="">
                         <i class="fi fi-rc-search"></i>
                         <input type="search" name="" id="" placeholder="Search..."></li>
@@ -46,3 +47,10 @@ document.getElementById("newProduct").addEventListener("click", () => {
         alert("Por favor, completa todos los campos.");
     }
 });
+// document.getElementById("mode-toggle").addEventListener("click", () => {
+//     document.body.classList.toggle("dark-mode");
+//     const toggleButton = document.getElementById("mode-toggle");
+//     toggleButton.textContent = 
+//       document.body.classList.contains("dark-mode") ? "Modo Claro" : "Modo Oscuro";
+//   });
+  

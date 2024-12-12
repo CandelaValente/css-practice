@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nombre": "Lorem ipsum",
+      "precio": 15.99,
+      "imagen": "img/1.jpeg"
+    },
+    {
+      "id": 2,
+      "nombre": "Lorem ipsum",
+      "precio": 15.99,
+      "imagen": "./img/2.jpeg"
+    },
+    {
+      "id": 3,
+      "nombre": "Lorem ipsum",
+      "precio": 15.99,
+      "imagen": "img/3.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Lorem ipsum",
+      "precio": 15.99,
+      "imagen": "img/4.jpeg"
+    }
+]
